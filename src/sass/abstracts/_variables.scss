@@ -1,3 +1,38 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+// VARIABLES DE FOOTER
+$color_footer_scLinks: #fff;
+$color_footer_scLogo: #F3F3FD;
+$color_footer_scTerminos: #C9CEEA;
+$color_footer_texto: #7075a2;
+$color_footer_titulo: #2f376d;
+$color_footer_column_rule: #a0a4c5;
+
+// Tamaño máximo del contenido del footer
+$ancho_max: 1366px;
+
+$interlineado_Links: 40px;
+
+// Imágenes redes sociales
+$redes: (
+    facebook: "../assets/img/svg/facebook.svg",
+    twitter: "../assets/img/svg/twitter.svg",
+    instagram: "../assets/img/svg/instagram.svg",
+    linkedin: "../assets/img/svg/linkedin.svg",
+    pinterest: "../assets/img/svg/pinterest.svg",
+    youtube: "../assets/img/svg/youtube.svg",
+    vimeo: "../assets/img/svg/vimeo.svg"
+);
+
+// Links redes sociales
+$redesLink: (
+    facebook: "https://www.facebook.com/",
+    twitter: "https://twitter.com/",
+    instagram: "https://www.instagram.com/",
+    linkedin: "https://www.linkedin.com/",
+    pinterest: "https://www.pinterest.com/",
+    youtube: "https://www.youtube.com/",
+    vimeo: "https://vimeo.com/"
+);

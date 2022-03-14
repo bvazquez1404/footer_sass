@@ -2,3 +2,116 @@
 /* @FOOTER */
 /* ********* */
 
+// Colores
+.links{
+    background-color: $color_footer_scLinks;
+}
+
+.logo_jotform{
+    background-color: $color_footer_scLogo;
+}
+
+.terminosSocial{
+    background-color: $color_footer_scTerminos;
+}
+
+.links{
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.links__contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido__lista{
+    line-height: $interlineado_Links;
+}
+
+.links__mapaSitio{
+    border: none;
+    color: $color_footer_texto;
+}
+
+.titulo{
+   
+    color: $color_footer_titulo;
+}
+
+li{
+    list-style: none;
+}
+
+.logo_jotform{
+    &__contenido{
+        padding: 1rem;
+    }
+    &__select{
+        width: 150px;
+        padding: 6px 0 6px 5px;
+        border: 1px solid $color_footer_scTerminos;
+        color: $color_footer_titulo;
+    }
+    &__direccion{
+        color: $color_footer_texto;
+    }
+}
+
+.terminosSocial{
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.centrar{
+    max-width: $ancho_max;
+    margin: 0 auto;
+}
+
+// Términos y Condiciones
+.terminosSocial__contenido{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.politicas{
+    column-count: 3;
+    column-rule: 2px solid $color_footer_column_rule;
+
+    &__privacidad{
+        text-align: center;
+    }
+
+    > *{
+        display: block;
+    }
+}
+
+.logo_jotform__copyright{
+    margin: 0;
+    display: flex;
+}
+
+.logo_jotform__img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo_jotform__direccion{
+    padding-left: 20px;
+}
+
+.logo_jotform__contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: $color_footer_texto;
+}
+
