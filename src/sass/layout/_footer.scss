@@ -28,12 +28,23 @@
 
 .contenido__lista{
     line-height: $interlineado_Links;
+
+    li{
+        a{
+            color: $color_footer_texto;
+        }
+        select{
+            border: none;
+            color: $color_footer_texto;
+        }
+    }
 }
 
-.links__mapaSitio{
-    border: none;
-    color: $color_footer_texto;
-}
+
+// .links__mapaSitio{
+//     border: none;
+//     color: $color_footer_texto;
+// }
 
 .titulo{
    
@@ -43,6 +54,7 @@
 li{
     list-style: none;
 }
+
 
 .logo_jotform{
     &__contenido{

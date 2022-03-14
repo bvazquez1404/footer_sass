@@ -403,8 +403,10 @@ footer {
 .contenido__lista {
   line-height: 40px;
 }
-
-.links__mapaSitio {
+.contenido__lista li a {
+  color: #7075a2;
+}
+.contenido__lista li select {
   border: none;
   color: #7075a2;
 }
